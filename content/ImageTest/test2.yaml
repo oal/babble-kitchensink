@@ -1,0 +1,14 @@
+image_crop_fixed:
+    filename: railway-wide.jpg
+    crop: { x: 210.8, 'y': 10.552941176471, width: 102.44705882353, height: 102.44705882353 }
+    url: /uploads/_cache/railway-wide-210-10-200x200.jpg
+image_crop:
+    filename: railway-wide.jpg
+    crop: { x: 0, 'y': 2.9941520467836, width: 294.32514619883, height: 90.4 }
+    url: /uploads/_cache/railway-wide-0-2-294x90.jpg
+image_autocrop:
+    filename: railway-wide.jpg
+    url: /uploads/_cache/railway-wide-0-0-200x100.jpg
+image_autocrop_2:
+    filename: railway-wide.jpg
+    url: /uploads/_cache/railway-wide-0-0-100x200.jpg

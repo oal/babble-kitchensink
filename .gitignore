@@ -1,2 +1,4 @@
 build/
 vendor/
+cache/
+public/uploads/_cache

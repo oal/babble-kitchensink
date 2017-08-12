@@ -1,0 +1,14 @@
+image_crop_fixed:
+    filename: grid.png
+    crop: { x: 198.43447037702, 'y': 55.956912028725, width: 378.71454219031, height: 378.71454219031 }
+    url: /uploads/_cache/grid-198-55-200x200.png
+image_crop:
+    filename: grid.png
+    crop: { x: 83.533213644524, 'y': 139.83482944345, width: 418.92998204668, height: 325.85996409336 }
+    url: /uploads/_cache/grid-83-139-418x325.png
+image_autocrop:
+    filename: grid.png
+    url: /uploads/_cache/grid-auto-200x100.png
+image_autocrop_2:
+    filename: grid.png
+    url: /uploads/_cache/grid-auto-100x200.png

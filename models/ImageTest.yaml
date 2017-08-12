@@ -1,0 +1,43 @@
+name: Image test
+options:
+    admin:
+        icon: image icon
+        list_display:
+        - id
+
+fields:
+    image_crop_fixed:
+        name: Image with fixed size cropping
+        type: image
+        options:
+            admin:
+                crop: true
+                columns: 8
+            width: 200
+            height: 200
+
+    image_crop:
+        name: Image with cropping
+        type: image
+        options:
+            admin:
+                crop: true
+                columns: 8
+
+    image_autocrop:
+        name: Image with automatic cropping
+        type: image
+        options:
+            admin:
+                columns: 8
+            width: 200
+            height: 100
+
+    image_autocrop_2:
+        name: Image with automatic cropping
+        type: image
+        options:
+            admin:
+                columns: 8
+            width: 100
+            height: 200

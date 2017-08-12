@@ -1,0 +1,14 @@
+image_crop_fixed:
+    filename: canada-goose-2317430_640.jpg
+    crop: { x: 0, 'y': 120.6, width: 482.4, height: 482.4 }
+    url: /uploads/_cache/canada-goose-2317430_640-0-120-200x200.jpg
+image_crop:
+    filename: railway-2439189_640.jpg
+    crop: { x: 69.614035087719, 'y': 115.18245614035, width: 512, height: 113.03859649123 }
+    url: /uploads/_cache/railway-2439189_640-69-115-512x113.jpg
+image_autocrop:
+    filename: railway-2439189_640.jpg
+    url: /uploads/_cache/railway-2439189_640-0-0-200x100.jpg
+image_autocrop_2:
+    filename: canada-goose-2317430_640.jpg
+    url: /uploads/_cache/canada-goose-2317430_640-0-0-100x200.jpg
