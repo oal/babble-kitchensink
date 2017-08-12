@@ -16,4 +16,5 @@ fields:
         name: Body
         type: text
         options:
-            multiline: true
+            admin:
+                multiline: true

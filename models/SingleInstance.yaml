@@ -1,0 +1,14 @@
+name: 'Single Instance Model'
+single: true
+
+options:
+    admin:
+        icon: 'hand pointer'
+        list_display:
+        - id
+        - title
+
+fields:
+    title:
+        name: Title
+        type: text
