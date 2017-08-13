@@ -1,9 +1,9 @@
-name: 'Single Instance Model'
+name: 'Website configuration'
 single: true
 
 options:
     admin:
-        icon: 'hand pointer'
+        icon: 'setting'
 
 fields:
     title:
