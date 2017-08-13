@@ -1,0 +1,4 @@
+title: 'Simple HTML test'
+body: |
+    <h2>Visit the Babble website</h2>
+    <a href="http://babble.site">Babble</a>

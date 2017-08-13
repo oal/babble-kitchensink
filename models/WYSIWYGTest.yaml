@@ -1,0 +1,20 @@
+name: WYSIWYG test
+
+options:
+    admin:
+        icon: 'paint brush'
+        list_display:
+        - id
+        - title
+
+fields:
+    title:
+        name: Title
+        type: text
+
+    body:
+        name: Body
+        type: html
+        options:
+            admin:
+                wysiwyg: true

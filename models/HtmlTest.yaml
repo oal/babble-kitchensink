@@ -1,0 +1,17 @@
+name: HTML test
+
+options:
+    admin:
+        icon: 'file code outline'
+        list_display:
+        - id
+        - title
+
+fields:
+    title:
+        name: Title
+        type: text
+
+    body:
+        name: Body
+        type: html
