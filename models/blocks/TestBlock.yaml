@@ -1,0 +1,6 @@
+name: 'Block Test'
+
+fields:
+    title:
+        name: 'Title'
+        type: text

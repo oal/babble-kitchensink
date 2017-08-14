@@ -1,0 +1,7 @@
+blocks:
+    - { type: TestBlock, value: { title: fgfdg } }
+    - { type: TestBlock, value: { title: sdfsd } }
+blockCards:
+    - { type: TestBlock, value: { title: gg } }
+    - { type: TestBlock, value: { title: sdfsdfaa } }
+    - { type: TestBlock, value: { title: sdfsdfa } }

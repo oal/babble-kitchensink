@@ -1,0 +1,14 @@
+name: Auto ID Test
+
+options:
+    admin:
+        id: title # Automatically sets ID to a slugified version of this column. 
+        icon: refresh
+        list_display:
+        - id
+        - title
+
+fields:
+    title:
+        name: Title
+        type: text

@@ -1,0 +1,24 @@
+name: Block (list) test
+
+options:
+    admin:
+        icon: 'file code outline'
+        list_display:
+        - id
+
+fields:
+    blocks:
+        name: List
+        type: list
+        options:
+            blocks:
+            - TestBlock
+
+    blockCards:
+        name: Cards
+        type: list
+        options:
+            blocks:
+            - TestBlock
+            admin:
+                cards: true
