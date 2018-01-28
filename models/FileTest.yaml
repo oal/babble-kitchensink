@@ -10,3 +10,7 @@ fields:
     file:
         name: File
         type: file
+    optional_file:
+        name: 'Optional file'
+        type: file
+        required: false

@@ -1,0 +1,30 @@
+name: Validation test
+options:
+    admin:
+        icon: folder
+        list_display:
+        - id
+        - email
+        - url
+
+fields:
+    optional:
+        name: Optional field
+        type: text
+        required: false
+    email:
+        name: Email
+        type: text
+        validation:
+            format: 'email'
+    url:
+        name: URL
+        type: text
+        validation:
+            format: 'uri'
+    min_max_length:
+        name: 'Length (2-5 characters)'
+        type: text
+        validation:
+            minLength: 2
+            maxLength: 5

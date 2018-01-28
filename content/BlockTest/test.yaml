@@ -11,7 +11,7 @@ blockCards:
     -
         type: TestBlock
         value:
-            title: Test
+            title: ''
     -
         type: TestBlock
         value:
