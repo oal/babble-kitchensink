@@ -1,0 +1,12 @@
+name: File test
+options:
+    admin:
+        icon: insert_drive_file
+        list_display:
+        - id
+        - file
+
+fields:
+    file:
+        name: File
+        type: file

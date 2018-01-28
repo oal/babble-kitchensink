@@ -12,7 +12,7 @@ fields:
         options:
             admin:
                 crop: true
-                columns: 8
+                columns: 6
             width: 200
             height: 200
 
@@ -22,14 +22,14 @@ fields:
         options:
             admin:
                 crop: true
-                columns: 8
+                columns: 6
 
     image_autocrop:
         name: Image with automatic cropping
         type: image
         options:
             admin:
-                columns: 8
+                columns: 6
             width: 200
             height: 100
 
@@ -38,6 +38,6 @@ fields:
         type: image
         options:
             admin:
-                columns: 8
+                columns: 6
             width: 100
             height: 200
