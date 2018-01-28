@@ -1,7 +1,26 @@
 blocks:
-    - { type: TestBlock, value: { title: fgfdg } }
-    - { type: TestBlock, value: { title: sdfsd } }
+    -
+        type: TestBlock
+        value:
+            title: 'Test list 1'
+    -
+        type: TestBlock
+        value:
+            title: 'Test list 2'
 blockCards:
-    - { type: TestBlock, value: { title: gg } }
-    - { type: TestBlock, value: { title: sdfsdfaa } }
-    - { type: TestBlock, value: { title: sdfsdfa } }
+    -
+        type: TestBlock
+        value:
+            title: Test
+    -
+        type: TestBlock
+        value:
+            title: Test2
+    -
+        type: TestBlock
+        value:
+            title: Test3
+    -
+        type: TestBlock
+        value:
+            title: Test4

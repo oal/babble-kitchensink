@@ -3,3 +3,4 @@ vendor/
 cache/
 public/uploads/_cache
 assets/
+.idea/

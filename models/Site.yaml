@@ -3,7 +3,7 @@ single: true
 
 options:
     admin:
-        icon: 'setting'
+        icon: settings
 
 fields:
     title:

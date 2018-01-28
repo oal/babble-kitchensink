@@ -2,7 +2,7 @@ name: HTML test
 
 options:
     admin:
-        icon: 'file code outline'
+        icon: code
         list_display:
         - id
         - title

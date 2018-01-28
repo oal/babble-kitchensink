@@ -1,14 +1,25 @@
 image_crop_fixed:
     filename: railway-narrow.jpg
-    crop: { x: 17.059959758551, 'y': 6.0559356136821, width: 211.2, height: 211.2 }
-    url: /uploads/_cache/railway-narrow-17-6-200x200.jpg
+    crop:
+        x: 14.82
+        'y': 48.255935613682
+        width: 249.18
+        height: 249.18
+        rotate: 0
+        scaleX: 1
+        scaleY: 1
+    url: /uploads/_cache/railway-narrow-14-48-249x249-200x200.jpg
 image_crop:
     filename: railway-narrow.jpg
-    crop: { x: 2.9871559633027, 'y': 7.4844036697248, width: 170.02568807339, height: 361.0128440367 }
-    url: /uploads/_cache/railway-narrow-2-7-170x361.jpg
+    crop:
+        x: 2.9871559633027
+        'y': 7.4844036697248
+        width: 170.02568807339
+        height: 361.0128440367
+    url: /uploads/_cache/railway-narrow-2-7-170x361-x.jpg
 image_autocrop:
     filename: railway-narrow.jpg
-    url: /uploads/_cache/railway-narrow-0-0-200x100.jpg
+    url: /uploads/_cache/railway-narrow-auto-auto-200x100.jpg
 image_autocrop_2:
     filename: railway-narrow.jpg
-    url: /uploads/_cache/railway-narrow-0-0-100x200.jpg
+    url: /uploads/_cache/railway-narrow-auto-auto-100x200.jpg

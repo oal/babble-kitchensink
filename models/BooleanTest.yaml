@@ -1,0 +1,13 @@
+name: Boolean test
+
+options:
+    admin:
+        icon: check_box
+        list_display:
+        - id
+        - checkbox
+
+fields:
+    checkbox:
+        name: 'Is checked?'
+        type: boolean

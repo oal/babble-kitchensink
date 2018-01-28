@@ -2,7 +2,7 @@ name: WYSIWYG test
 
 options:
     admin:
-        icon: 'paint brush'
+        icon: format_paint
         list_display:
         - id
         - title

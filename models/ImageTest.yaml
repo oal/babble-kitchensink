@@ -1,7 +1,7 @@
 name: Image test
 options:
     admin:
-        icon: image icon
+        icon: image
         list_display:
         - id
 

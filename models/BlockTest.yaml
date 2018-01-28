@@ -2,7 +2,7 @@ name: Block (list) test
 
 options:
     admin:
-        icon: 'file code outline'
+        icon: add_box
         list_display:
         - id
 

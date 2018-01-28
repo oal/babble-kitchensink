@@ -3,7 +3,7 @@ single: true
 
 options:
     admin:
-        icon: 'hand pointer'
+        icon: looks_one
 
 fields:
     title:

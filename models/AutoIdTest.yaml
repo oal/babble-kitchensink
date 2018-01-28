@@ -3,7 +3,7 @@ name: Auto ID Test
 options:
     admin:
         id: title # Automatically sets ID to a slugified version of this column. 
-        icon: refresh
+        icon: autorenew
         list_display:
         - id
         - title
