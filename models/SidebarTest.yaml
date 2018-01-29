@@ -1,0 +1,19 @@
+name: Sidebar test
+options:
+    admin:
+        icon: menu
+        list_display:
+        - id
+        - main
+        - sidebar
+
+fields:
+    main:
+        name: Main column
+        type: text
+    sidebar:
+        name: Sidebar column
+        type: text
+        options:
+            admin:
+                sidebar: true

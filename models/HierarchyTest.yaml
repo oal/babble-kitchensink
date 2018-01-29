@@ -1,0 +1,16 @@
+name: Hierarchy test
+hierarchical: true
+options:
+    admin:
+        icon: line_style
+        list_display:
+        - id
+        - title
+
+fields:
+    title:
+        name: Title
+        type: text
+
+properties:
+    permalink: '/{% if this.id != "index" %}{{ this.id }}/{% endif %}'
