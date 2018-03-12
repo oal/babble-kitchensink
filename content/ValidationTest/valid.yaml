@@ -1,4 +1,5 @@
 optional: null
+int: '1'
 email: test@example.com
 url: 'http://example.com'
 min_max_length: two

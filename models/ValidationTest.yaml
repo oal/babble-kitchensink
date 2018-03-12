@@ -12,16 +12,21 @@ fields:
         name: Optional field
         type: text
         required: false
+    int:
+        name: Integer
+        type: text
+        validation:
+            type: integer
     email:
         name: Email
         type: text
         validation:
-            format: 'email'
+            format: email'
     url:
         name: URL
         type: text
         validation:
-            format: 'uri'
+            format: uri
     min_max_length:
         name: 'Length (2-5 characters)'
         type: text
