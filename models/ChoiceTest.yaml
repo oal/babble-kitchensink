@@ -1,0 +1,33 @@
+name: Choice test
+
+options:
+    admin:
+        icon: arrow_drop_down
+        list_display:
+        - id
+        - option
+        - option_assoc
+        - option_model
+
+fields:
+    option:
+        name: 'Choose something'
+        type: choice
+        options:
+            choices:
+            - A
+            - B
+            - C
+    option_assoc:
+        name: 'Choose something (assoc)'
+        type: choice
+        options:
+            choices:
+                a: A
+                b: B
+                c: C
+    option_model:
+        name: 'Choose something (model)'
+        type: choice
+        options:
+            model: Page
