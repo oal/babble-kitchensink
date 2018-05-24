@@ -11,3 +11,8 @@ fields:
     checkbox:
         name: 'Is checked?'
         type: boolean
+
+    checkbox_optional:
+        name: 'Is checked? (optional)'
+        type: boolean
+        required: false

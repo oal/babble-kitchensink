@@ -15,7 +15,7 @@
         <ul>
             {% for page in Page.all() %}
                 <li>
-                    <a href="/{{ page.permalink }}">{{ page.title }}</a>
+                    <a href="{{ page.permalink }}">{{ page.title }}</a>
                 </li>
             {% endfor %}
         </ul>
