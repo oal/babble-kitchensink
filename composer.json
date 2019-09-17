@@ -1,11 +1,12 @@
 {
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../babble"
-        }
-    ],
-    "require": {
-        "oal/babble": "*"
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../babble"
     }
+  ],
+  "require": {
+    "oal/babble": "*",
+    "ext-json": "*"
+  }
 }

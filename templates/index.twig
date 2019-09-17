@@ -5,8 +5,13 @@
 {% block body %}
     {% set this = Page.find('index') %}
 
+    {{ Page.field('body') }}
+
     <div id="jumbo">
         <h1>A perfect fit for 80% of websites</h1>
+        <div>
+            {{ this.field('body') }}
+        </div>
         <ul>
             <li>Flat files</li>
             <li>Flexible data models</li>

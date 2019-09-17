@@ -4,10 +4,12 @@ options:
         icon: image
         list_display:
         - id
+        - image_crop_fixed
+        - image_crop
 
 fields:
     image_crop_fixed:
-        name: Image with fixed size cropping
+        name: Image (fixed size crop)
         type: image
         options:
             admin:

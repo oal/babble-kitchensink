@@ -1,0 +1,8 @@
+Field: {{ Page.field('body') }}
+
+<hr>
+
+Name: {{ Page.field('body').name }} <br>
+Type: {{ Page.field('body').type }} <br>
+Key: {{ Page.field('body').key }} <br>
+Multiline? {{ Page.field('body').option('admin').multiline ? 'Yes' : 'No' }} <br>

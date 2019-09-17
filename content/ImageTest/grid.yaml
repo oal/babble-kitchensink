@@ -1,11 +1,14 @@
 image_crop_fixed:
     filename: grid.png
     crop:
-        x: 198.43447037702
-        'y': 55.956912028725
-        width: 378.71454219031
-        height: 378.71454219031
-    url: /uploads/_cache/grid-198-55-378x378-200x200.png
+        x: 0
+        'y': 128
+        width: 512
+        height: 512
+        rotate: 0
+        scaleX: 1
+        scaleY: 1
+    url: /uploads/_cache/grid-0-127-512x512-200x200.png
 image_crop:
     filename: grid.png
     crop:
