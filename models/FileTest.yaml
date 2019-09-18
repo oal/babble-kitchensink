@@ -5,6 +5,7 @@ options:
         list_display:
         - id
         - file
+        - optional_file
 
 fields:
     file:
