@@ -1,6 +1,19 @@
 {% for bool in BooleanTest.all() %}
+    <pre>
+        {{ bool }}
+    </pre>
     {{ bool.checkbox }}
+    {% if bool.checkbox %}
+        Checked!
+    {% else %}
+        Not checked!
+    {% endif %}
     <br>
-    {{ bool.checkbox2 }}
+    {{ bool.checkbox_optional }}
+    {% if bool.checkbox_optional %}
+        Checked!
+    {% else %}
+        Not checked!
+    {% endif %}
     <hr>
 {% endfor %}

@@ -2,11 +2,19 @@ blocks:
     -
         type: TestBlock
         value:
-            title: 'Test list 1'
+            title: 'Test list 2sdsdfs'
+            image:
+                filename: railway-wide.jpg
+                crop: { x: 199.5, 'y': 11.3, width: 113, height: 90.4, rotate: 0, scaleX: 1, scaleY: 1 }
+                url: /uploads/_cache/railway-wide-199-11-113x90-100x80.jpg
     -
         type: TestBlock
         value:
-            title: 'Test list 2'
+            title: 'Test list 1s'
+            image:
+                filename: canada-goose-2317430_640.jpg
+                crop: { x: 64, 'y': 96.7, width: 512, height: 409.6, rotate: 0, scaleX: 1, scaleY: 1 }
+                url: /uploads/_cache/canada-goose-2317430_640-64-96-512x409-100x80.jpg
 blockCards:
     -
         type: TestBlock
