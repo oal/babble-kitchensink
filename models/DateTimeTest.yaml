@@ -1,0 +1,12 @@
+name: Date & time tests
+
+options:
+    admin:
+        icon: event
+        list_display:
+        - id
+        - datetime
+fields:
+    datetime:
+        name: Date & time
+        type: datetime
